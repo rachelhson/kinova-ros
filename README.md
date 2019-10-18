@@ -2,9 +2,9 @@
 
 ### Use Moveit with a real robot (tested 10/16/2019)
 
-`roslaunch j2n6s300_moveit_config j2n6s300_demo.launch`
+- For Moveit `roslaunch j2n6s300_moveit_config j2n6s300_demo.launch`
 
-`roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2n6s300 use_urdf:=true`
+- For RealRobot `roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2n6s300 use_urdf:=true`
 
 ### Gazebo control error issue (tested 10/17/2019)
 
@@ -20,8 +20,9 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 
 - Check controller.yaml `name` : same as Gazebo topic controller
   (controllers_ros_control.yaml has been set up to referring Gazebo topic controller)
- 
-`roslaunch j2n6s300_moveit_config j2n6s300_gazebo_demo.launch`
+ 	- For Gazebo `roslaunch kinova_gazebo robot_launch.launch `
+
+	- For Moveit `roslaunch j2n6s300_moveit_config j2n6s300_gazebo_demo.launch`
 
 # Table of Contents 
 - [Important](#important) 
