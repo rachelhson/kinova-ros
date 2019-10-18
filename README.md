@@ -2,9 +2,10 @@
 
 ### Use Moveit with a real robot (tested 10/16/2019)
 
+- For RealRobot `roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2n6s300 use_urdf:=true`
+
 - For Moveit `roslaunch j2n6s300_moveit_config j2n6s300_demo.launch`
 
-- For RealRobot `roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2n6s300 use_urdf:=true`
 
 ### Gazebo control error issue (tested 10/17/2019)
 
