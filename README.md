@@ -1,4 +1,4 @@
-# Rachel's command note
+# Rachel's Command Note
 
 ### Use Moveit with a real robot (tested 10/16/2019)
 
