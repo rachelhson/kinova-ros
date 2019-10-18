@@ -23,6 +23,13 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
  	- For Gazebo `roslaunch kinova_gazebo robot_launch.launch `
 
 	- For Moveit `roslaunch j2n6s300_moveit_config j2n6s300_gazebo_demo.launch`
+	
+### Project world created (added 10/18/2019)
+- Add the same size of the Box model that we will test in real world = corresponding world file *project.world*
+ `roslaunch kinova_gazebo robot_model_launch.launch`
+
+
+
 
 # Table of Contents 
 - [Important](#important) 
