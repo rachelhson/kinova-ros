@@ -1,7 +1,7 @@
 # Rachel's Command Note
 
 ### Use Moveit with a real robot (tested 10/16/2019)
-
+* To avoid error launch real robot First 
 - For RealRobot `roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2n6s300 use_urdf:=true`
 
 - For Moveit `roslaunch j2n6s300_moveit_config j2n6s300_demo.launch`
@@ -30,7 +30,11 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 
 	 `roslaunch kinova_gazebo robot_model_launch.launch`
 
+### Use Moveit Demo (tested 10/18/2019)
 
+- Moveit demo code can run with this launch file 
+
+`roslaunch j2n6s300_moveit_config j2n6s300_virtual_robot_demo.launch`
 
 
 # Table of Contents 
