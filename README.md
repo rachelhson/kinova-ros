@@ -1,12 +1,12 @@
 # Rachel's command note
 
-### Use Moveit with a real robot (10/16/2019)
+### Use Moveit with a real robot (tested 10/16/2019)
 
 `roslaunch j2n6s300_moveit_config j2n6s300_demo.launch`
 
 `roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2n6s300 use_urdf:=true`
 
-### Gazebo control error issue (10/17/2019)
+### Gazebo control error issue (tested 10/17/2019)
 
 - Install control related to Gazebo
 reference : http://gazebosim.org/tutorials?tut=ros_installing
@@ -16,7 +16,7 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 - Install control related to ros 
 `sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers`
 
-### Connect Gazebo and moveit
+### Connect Gazebo and moveit (tested 10/17/2019)
 
 - Check controller.yaml `name` : same as Gazebo topic controller
   (controllers_ros_control.yaml has been set up to referring Gazebo topic controller)
