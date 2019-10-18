@@ -8,18 +8,18 @@
 
 ### Gazebo control error issue (10/17/2019)
 
-Install control related to Gazebo
+- Install control related to Gazebo
 reference : http://gazebosim.org/tutorials?tut=ros_installing
 
 `sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control`
 
-Install control related to ros 
+- Install control related to ros 
 `sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers`
 
 ### Connect Gazebo and moveit
 
--Check controller.yaml `name` : same as Gazebo topic controller
- (controllers_ros_control.yaml has been set up to referring Gazebo topic controller)
+- Check controller.yaml `name` : same as Gazebo topic controller
+  (controllers_ros_control.yaml has been set up to referring Gazebo topic controller)
  
 `roslaunch j2n6s300_moveit_config j2n6s300_gazebo_demo.launch`
 
