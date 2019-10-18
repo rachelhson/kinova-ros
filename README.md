@@ -6,7 +6,7 @@
 
 `roslaunch kinova_bringup kinova_robot.launch kinova_robotType:=j2n6s300 use_urdf:=true`
 
-## Gazebo control error issue (10/17/2019)
+### Gazebo control error issue (10/17/2019)
 
 Install control related to Gazebo
 reference : http://gazebosim.org/tutorials?tut=ros_installing
@@ -15,7 +15,7 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 Install control related to ros 
 `sudo apt-get install ros-kinetic-ros-control ros-kinetic-ros-controllers`
 
-Connect Gazebo and moveit
+### Connect Gazebo and moveit
 
 Check controller.yaml `name` : same as Gazebo topic controller 
 Gazebo topic controller /j2n6s300/effort_joint_trajectory_controller 
