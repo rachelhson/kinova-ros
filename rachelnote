@@ -17,3 +17,108 @@ sleep 20
 
 rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0.1 0 0 0 0
 sleep 20
+
+'''
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- -22.5 0 0 0 0 0 
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- -22.5 0 0 0 0 0 
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- -22.5 0 0 0 0 0 
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- -22.5 0 0 0 0 0 
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- -14.3 0 0 0 0 0 
+// ready pose to scan the 300 x 540 area 
+```
+OR
+```
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- -104.3 0 0 0 0 0 
+```
+
+- what i found is `joint1 =180` will be facing the perpendicular to the surface of 300 x 540 
+
+
+
+##start above the box 
+```
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.05 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0.54 0 0 0
+
+```
+- 3-waypoint are maximum for arm movement 
+- very below the arm it could not make 3- waypoints
+- !! Done Scanning the 300*540 parts!
+
+- startingpose
+```
+rotating the corner part
+Cartesian position is: [0.348004549742, 0.624385869503, 0.370033621788]
+Cartesian orientation in Quaternion is: 
+qx 0.049, qy 0.779, qz 0.579, qw 0.235
+Cartesian orientation in Euler-XYZ(radian) is: 
+tx -1.814, ty 0.438, tz 2.924
+Cartesian orientation in Euler-XYZ(degree) is: 
+tx -103.9, ty 25.1, tz 167.5
+
+```
+//set corner data acquisition pose 
+`rosrun kinova_demo pose_action_client.py -v j2n6s300 mdeg -- 0.348 0.544 0.37 -103.9 25.1 167.5` 
+```
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+
+
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- 0 0 0 -22.5 0 0
+
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+
+```
+corner scan great joint configure 
+Joint values sent in degree are: 
+joint1 169.0, joint2 250.2, joint3 73.9, joint4 201.3, joint5 96.4, joint6 152.9
+Joint values sent in radian are: 
+joint1 2.949, joint2 4.366, joint3 1.289, joint4 3.513, joint5 1.683, joint6 2.669
+
+
+use 5 th joint easier to control the camera orientation
+
+##Ready for the another area scanning
+```
+carl@carl:~$ rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 -22.50 22.50 0
+position listener obtained message for Cartesian pose. 
+Cartesian pose sent!
+Cartesian position is: [0.361718869209, 0.422655045986, -0.100114151835]
+Cartesian orientation in Quaternion is: 
+qx 0.002, qy 0.721, qz 0.004, qw 0.693
+Cartesian orientation in Euler-XYZ(radian) is: 
+tx -3.073, ty 1.532, tz 3.080
+Cartesian orientation in Euler-XYZ(degree) is: 
+tx -176.1, ty 87.8, tz 176.5
+```
