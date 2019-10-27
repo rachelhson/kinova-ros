@@ -1,0 +1,19 @@
+start pose change to
+```
+Cartesian position is: [0.211940020323, -0.27501475811, 0.496133089066]
+Cartesian orientation in Euler-XYZ(degree) is: 
+tx 63.6, ty 82.3, tz 4.0
+```
+
+
+current limitation is
+'''
+The arm is too far from the object (0.8m), arm can be only reach to around 0.9 m
+based on testing camera focus less than 0.5m still get good data so we change the distance between arm and structure. 
+
+
+The other issue we found is the motion of robotic arm are different for the width and the length because the distance change. 
+our first plan was that we placing diagonal space apart same distance along the width and Length of the object. 
+but has to be different allowing arm to move and keep our camera in the same distance from the object 
+```
+testing
