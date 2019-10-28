@@ -32,6 +32,15 @@ qx 0.902, qy 0.128, qz 0.393, qw 0.128
 Cartesian orientation in Euler-XYZ(radian) is: 
 tx 2.947, ty 0.835, tz -0.195
 Cartesian orientation in Euler-XYZ(degree) is: 
-tx 168.9, ty 47.9, tz -11.2
+tx 177.4, ty 72.8, tz -27.4
 
+Cartesian orientation in Euler-XYZ(radian) is: 
+tx -2.665, ty 1.060, tz -1.003
+Cartesian orientation in Euler-XYZ(degree) is: 
+tx -152.7, ty 60.7, tz -57.
+
+Cartesian orientation in Euler-XYZ(radian) is: 
+tx -2.665, ty 1.060, tz -1.003
+Cartesian orientation in Euler-XYZ(degree) is: 
+tx -152.7, ty 60.7, tz -57.
 
