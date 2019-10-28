@@ -21,3 +21,7 @@ testing
 what I found is that adjanct motion ( movement connection is important to avoid collision 
 rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 -0.15 0 22.5 0 0
 eachmovement cause some rotation which may allow to pointintg the center of the object can be possible 
+
+Cartesian orientation in Euler-XYZ(degree) is: 
+tx -133.6, ty 74.9, tz 148.8
+
