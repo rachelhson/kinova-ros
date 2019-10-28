@@ -17,3 +17,7 @@ our first plan was that we placing diagonal space apart same distance along the 
 but has to be different allowing arm to move and keep our camera in the same distance from the object 
 ```
 testing
+
+what I found is that adjanct motion ( movement connection is important to avoid collision 
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 -0.15 0 22.5 0 0
+eachmovement cause some rotation which may allow to pointintg the center of the object can be possible 
