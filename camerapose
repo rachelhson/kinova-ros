@@ -1,0 +1,41 @@
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0 -22.50 22.50 0	
+
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- -104.3 0 0 0 0 0 
+sleep 5
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.3 0 0 -30 30 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 22.5 -22.5 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.05 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- -0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0.15 0 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.05 0 0 0
+
+
+rosrun kinova_demo pose_action_client.py -v j2n6s300 mdeg -- 0.448 0.33 0.37 -103.9 25.1 167.5
+rosrun kinova_demo joints_action_client.py -v -r j2n6s300 degree -- 0 0 0 -30 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 -0.10 0 0 0
+
+rosrun kinova_demo pose_action_client.py -v j2n6s300 mdeg -- 0.361 0.423 -0.100 -176.1 87.8 176.5
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0.15 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0.05 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 -0.15 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 -0.05 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0.15 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0.10 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0.15 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 -0.15 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 -0.15 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0 0.15 -22.5 -22.5 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0.15 0 0 0 0
+rosrun kinova_demo pose_action_client.py -v -r j2n6s300 mdeg -- 0 0.10 0 0 0 0
