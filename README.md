@@ -29,7 +29,7 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 - Add the same size of the Box model that we will test in real world = corresponding world file *project.world*
 
 	 `roslaunch kinova_gazebo robot_model_launch.launch`
-- Camera world `camera.world` & included in the `robot_model_camera.launch`
+- Camera world `camera.world` & included in the `robot_model_camera.launch`(added 11/26/2019)
 
 	`roslaunch kinova_gazebo robot_model_camera.launch`
 ### Use Moveit Demo (tested 10/18/2019)
