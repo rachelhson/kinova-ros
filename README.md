@@ -32,6 +32,8 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 - Camera world `camera.world` & included in the `robot_model_camera.launch`(added 11/26/2019)
 
 	`roslaunch kinova_gazebo robot_model_camera.launch`
+	
+	- urdf includes camera on gripper (added 11/29/2019)
 ### Use Moveit Demo (tested 10/18/2019)
 
 - Moveit demo code can run with this launch file 
