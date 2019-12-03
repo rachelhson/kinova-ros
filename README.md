@@ -25,6 +25,8 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 
 	- For Moveit `roslaunch j2n6s300_moveit_config j2n6s300_gazebo_demo.launch`
 	
+	(12022019 : have to check moveit launch working with real robot)
+	
 ### Project world created (added 10/18/2019)
 - Add the same size of the Box model that we will test in real world = corresponding world file *project.world*
 
