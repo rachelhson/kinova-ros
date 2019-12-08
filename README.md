@@ -42,6 +42,9 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 
 `roslaunch j2n6s300_moveit_config j2n6s300_virtual_robot_demo.launch`
 
+### Use Moveit and Simulation (tested 12/08/2019)
+`rosrun kinova_arm_moveit_demo work_scene`
+`work_scene.cpp` place box 300 x 720 x 540 (mm) 
 
 # Table of Contents 
 - [Important](#important) 
