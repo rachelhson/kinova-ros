@@ -46,6 +46,16 @@ reference : http://gazebosim.org/tutorials?tut=ros_installing
 `rosrun kinova_arm_moveit_demo work_scene`
 `work_scene.cpp` place box 300 x 720 x 540 (mm) 
 
+### Move robot using moveit.py (tested 01/01/2019)
+The problem of not publishing `robot.get_current_state()`is solved as adding 
+```
+    joint_state =['joint_states:=/j2n6s300/joint_states']
+    moveit_commander.roscpp_initialize(joint_state)
+```
+and removing
+```
+#moveit_commander.roscpp_initialize(sys.argv)
+```
 # Table of Contents 
 - [Important](#important) 
 - [Kinova-ROS](#kinova-ros)
