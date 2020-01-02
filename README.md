@@ -56,6 +56,9 @@ and removing
 ```
 #moveit_commander.roscpp_initialize(sys.argv)
 ```
+### see the rostopic once 
+`rostopic echo -n1 /j2n6s300/joint_states`
+
 # Table of Contents 
 - [Important](#important) 
 - [Kinova-ROS](#kinova-ros)
